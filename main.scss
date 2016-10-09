@@ -50,10 +50,9 @@ font-size: 16px;
 
 .cool-img { 
 	a {
-  animation: pulse 1.5s linear infinite;
-  img {
-  height: 350px;
-  weight: 350px;
+       img {
+       height: 350px;
+       weight: 350px;
     border-radius: 100%;
     animation: spin 4s linear infinite;
   }
