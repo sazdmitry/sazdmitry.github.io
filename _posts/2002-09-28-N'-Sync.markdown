@@ -11,7 +11,7 @@ categories: jekyll update
 ### Они были для нас всем
 
 <dl>
-<img class="Nsync" src="{{ site.baseurl }}/img/Nsync.jpg" />
+<img alt="N_Sync" class="Nsync" src="{{ site.baseurl }}/img/Nsync.jpg" />
 </dl>
 
 Такие дела.
