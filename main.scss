@@ -1,0 +1,146 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Our variables
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+body {
+background-color: lightblue;
+margin: 0 auto;
+max-width: 700px;
+padding: 0 10px;
+width: 100%;
+}
+
+.wrap {
+font-family: cursive;
+font-size: 16px;
+
+}
+
+.test {
+	img {
+		height: 180px;
+		weight: 80px;
+	}
+	text-align: right;
+}
+
+.cool-img { 
+  animation: pulse 1.5s linear infinite;
+  img {
+  height: 350px;
+  weight: 350px;
+    border-radius: 100%;
+    animation: spin 4s linear infinite;
+  }
+}
+
+.JTpic {
+	text-align: center;
+}
+
+@keyframes spin { 100% { transform: rotate(360deg); } }
+@keyframes pulse {
+    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+}
+
+a {
+text-decoration: none;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
+
+nav {
+	float: right;
+	font-size: 18px;
+
+  a {
+    margin-left: 20px;
+    color: $grey-color-dark;
+    text-align: center;
+    font-weight: 300;
+  }
+}
+
+.site-name {
+	text-align: center;
+	font-size: 40px;
+}
+
+.site-postname {
+	text-align: center;
+	font-size: 18px;
+	color: $grey-color-dark;
+}
+
+.post-end {
+	text-align: center;
+	img {
+	animation: pulseBOT 1.5s linear infinite;
+	height: 340px;
+	width: 700px;
+	}
+}
+
+@keyframes pulseBOT {
+    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+	10% {-webkit-transform: scale(0.1, 0.1); opacity: 0.1;}
+	20% {-webkit-transform: scale(0.4, 0.4); opacity: 0.4;}
+	30% {-webkit-transform: scale(0.9, 0.9); opacity: 0.9;}
+	40% {-webkit-transform: scale(0.7, 0.7); opacity: 0.7;}
+	50% {-webkit-transform: scale(0.6, 0.6); opacity: 0.6;}
+	60% {-webkit-transform: scale(0.9, 0.9); opacity: 0.9;}
+    70% {opacity: 1.0;}
+	80% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+	90% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+    100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

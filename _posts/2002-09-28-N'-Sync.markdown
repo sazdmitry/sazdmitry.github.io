@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "’N_Sync РАСПАЛИСЬ:("
+date:   2002-09-28 14:40:27 +0300
+categories: jekyll update
+---
+В общем, свежая инфа!
+
+ОНИ РАСПАЛИСЬ! КАК ЖЕ ДАЛЬШЕ ЖИТЬ???!!!1
+
+### Они были для нас всем
+
+<dl>
+<img class="Nsync" src="{{ site.baseurl }}/img/Nsync.jpg" />
+</dl>
+
+Такие дела.

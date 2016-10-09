@@ -1,0 +1,8 @@
+
+title: JT n1 FUN
+email: awesomedimon@gmail.com
+description: Блог, посвященный единственному и неповторимому # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog
+#url: "127.0.0.1:4000" # the base hostname & protocol for your site
+name: Justin Timberlake is AWESOME
+
